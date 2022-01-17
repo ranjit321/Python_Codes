@@ -4,7 +4,6 @@ def printMaxSubSquare(Mat):
         R = len(Mat) #number of rows
         C = len(Mat[0]) #number of columns
         Sub = [[0 for n in range(C)] for m in range(R)]
-        #initialize the matri with 0
 
         # Construct other entries
         for i in range(0, R):
